@@ -1,0 +1,44 @@
+Terminator Shortcuts 
+ctrl + shift + o - horizontal split
+ctrl+ shift +e - vertical split
+ctrl + shift +w close current tab
+ctrl + shift + q - close all
+ctrl + shift + x - maximise current tab
+ctrl + shift +z - zoom current
+alt + arrows - change active tab
+ 
+
+vi shortcuts
+i = insert mode
+dd - delete line
+dw - delete word
+cw - replace word
+p - paste after
+P paste before
+u- undo
+y -copy line
+hjkl - frwd up down bcwd
+w save
+q quit
+number + G - goto line
+
+sublime shortcuts
+ctrl+p search file
+ctrl+f search text
+ctrl + shift +f search everywhere
+ctrl + g = goto line
+
+
+Eclipse
+Some useful shortcuts. You're looking for the 1st one...
+
+Ctrl + Shift + O : Organize imports
+Ctrl + Shift + T : Open Type
+Ctrl + Shift + F4 : Close all Opened Editors
+Ctrl + O : Open declarations
+Ctrl + E : Open Editor
+Ctrl + / : Line Comment
+Alt + Shift + R : Rename
+Alt + Shift + L : extract to Local Variable
+Alt + Shift + M : extract to Method
+F3 : Open Declaration
