@@ -42,5 +42,19 @@ function stopwatch(){
 }
 
 
+alias urldecode='python -c "import sys, urllib as ul; \
+        print ul.unquote_plus(sys.argv[1])"'
 
+ alias urlencode='python -c "import sys, urllib as ul; \
+         print ul.quote_plus(sys.argv[1])"'
 complete -F _db_suggest db_get 
+
+function datonis_sign_in(){
+    echo "$1,$2"
+    curl -X POST -H 'Content-Type:application/json' -d "{\"email\":\"$1\",\"password\":\"$2\"}" 'https://api.datonis.io/api_sign_in' 
+}
+
+function epoch_con(){
+    date -d "@$1"
+}
+
