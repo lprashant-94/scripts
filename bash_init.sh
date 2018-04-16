@@ -47,6 +47,9 @@ alias urldecode='python -c "import sys, urllib as ul; \
 
  alias urlencode='python -c "import sys, urllib as ul; \
          print ul.quote_plus(sys.argv[1])"'
+
+ alias beutify_json='python -mjson.tool'
+
 complete -F _db_suggest db_get 
 
 function datonis_sign_in(){
@@ -54,6 +57,9 @@ function datonis_sign_in(){
     curl -X POST -H 'Content-Type:application/json' -d "{\"email\":\"$1\",\"password\":\"$2\"}" 'https://api.datonis.io/api_sign_in' 
 }
 
+
+alias ks=ls
+alias sl=ls
 function epoch_con(){
     date -d "@$1"
 }
