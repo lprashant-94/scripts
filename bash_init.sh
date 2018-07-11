@@ -60,6 +60,9 @@ function datonis_sign_in(){
 
 alias ks=ls
 alias sl=ls
+alias s=ls
+alias LS=ls
+
 function epoch_con(){
     date -d "@$1"
 }
