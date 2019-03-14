@@ -21,6 +21,8 @@ hjkl - frwd up down bcwd
 w save
 q quit
 number + G - goto line
+Ctrl + D - Downward half screen scroll
+Ctrl + U - Upward half screen scroll
 
 sublime shortcuts
 ctrl+p search file
