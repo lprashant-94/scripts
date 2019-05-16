@@ -4,3 +4,14 @@
  set number
  imap jk <Esc>
 ```
+
+- For Disk activity monitorng
+```
+sudo apt-get install iotop
+sudo iotop
+```
+- Better top command
+```
+sudo apt install htop
+htop
+```
